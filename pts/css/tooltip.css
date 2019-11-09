@@ -1,0 +1,18 @@
+#osdhtmltooltip {
+	BORDER-RIGHT: #28A1BE 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #28A1BE 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 10pt; Z-INDEX: 100; LEFT: -300px; VISIBILITY: hidden; PADDING-BOTTOM: 4px; BORDER-LEFT: #28A1BE 1px solid; WIDTH: 350px; PADDING-TOP: 4px; BORDER-BOTTOM: #28A1BE 1px solid; FONT-FAMILY: Arial; POSITION: absolute; BACKGROUND-COLOR: #EEF6F8; TEXT-ALIGN: left
+}
+#osdhtmltooltip IMG {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; MARGIN: 2px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid; MARGIN-RIGHT: 10px; width: 128px;
+}
+#osdhtmltooltip H3 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; MARGIN: 0px; TEXT-TRANSFORM: none; COLOR: #28A1BE; PADDING-TOP: 2px; TEXT-DECORATION: none
+}
+#osdhtmltooltip SPAN {
+	COLOR: #999; FONT-STYLE: italic
+}
+#osdhtmltooltip DIV {
+	COLOR: #000
+}
+#osdhtmlpointer {
+	Z-INDEX: 101; LEFT: -300px; VISIBILITY: hidden; POSITION: absolute
+}

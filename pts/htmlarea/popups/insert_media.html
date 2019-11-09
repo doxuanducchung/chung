@@ -1,0 +1,82 @@
+<html STYLE="width: 400px; height: 130px; ">
+<head><title>Insert Media</title><head>
+<style>
+  html, body, button, div, input, select, td, fieldset { font-family: MS Shell Dlg; font-size: 8pt; };
+</style>
+<script>
+
+// if we pass the "window" object as a argument and then set opener to
+// equal that we can refer to dialogWindows and popupWindows the same way
+opener = window.dialogArguments;
+
+var _editor_url = opener._editor_url;
+var objname     = location.search.substring(1,location.search.length);
+var config      = opener.document.all[objname].config;
+var editor_obj  = opener.document.all["_" +objname+  "_editor"];
+var editdoc     = editor_obj.contentWindow.document;
+
+function _CloseOnEsc() {
+  if (event.keyCode == 27) { window.close(); return; }
+}
+
+window.onerror = HandleError
+
+function HandleError(message, url, line) {
+  var str = "An error has occurred in this dialog." + "\n\n"
+  + "Error: " + line + "\n" + message;
+  alert(str);
+//  window.close();
+  return true;
+}
+
+function Init() {
+  document.body.onkeypress = _CloseOnEsc;
+  media.value = media.value || "http://";
+  media.focus();
+}
+
+function btnOKClick() {
+  var curRange = editdoc.selection.createRange();
+
+  // error checking
+  if (!media.value || media.value == "http://") { 
+    alert("Media URL must be specified.");
+    media.focus();
+    return;
+  }
+
+  // delete selected content (if applicable)
+  if (editdoc.selection.type == "Control" || curRange.htmlText) {
+
+    if (!confirm("Overwrite selected content?")) { return; }
+
+    curRange.execCommand('Delete');
+    curRange = editdoc.selection.createRange();
+  }
+
+
+  // create media
+  var mediain = '<div align="center"><object width="330" height="295" style="border:2px solid #c2daf5" classid="clsid:6bf52a52-394a-11d3-b153-00c04f79faa6">\n'
+            + '<param name="url" value="' +document.all.media.value+ '"><param name="playcount" value="5"><param name="enablecontextmenu" value="0">\n'
+            + '<param name="autostart" value="0"><param name="volume" value="100"><param name="_cx" value="10451"><param name="_cy" value="9657">\n'
+            + '<embed type="application/x-mplayer2" quality="high" pluginspage="http://www.microsoft.com/windows/mediaplayer/" src="' +document.all.media.value+ '" width="330" height="295"'
+            + ' autosize="1" volume="100%" autostart="0" enablecontextmenu="0" enablefullscreencontrols="1" playcount="5" showcontrols="1" showaudiocontrols="1" showdisplay="0" showgotobar="0" showpositioncontrols="1" showstatusbar="1" showtracker="1">';
+  mediain += '</embed></object><br><font color="blue" size="1">Nh&#7845;n v&#224;o n&#250;t PLAY &#273;&#7875; xem!</font></div>\n';
+
+  // insert media
+  opener.editor_insertHTML(objname, mediain);
+
+
+  // close popup window
+  window.close();
+}
+</SCRIPT>
+</HEAD>
+<BODY id=bdy onload="Init()" style="background: threedface; color: windowtext; margin: 10px; BORDER-STYLE: none" scroll=no>
+
+<DIV style="width: 100%; float:left" align="center">Media URL: <INPUT name=media type=text style="width: 300px;height: 20px;" onfocus="select()">
+
+<BR><BR><BUTTON style="width: 80px;" type=submit onclick="btnOKClick()">OK</BUTTON> <BUTTON style="width: 80px;" type=reset onClick="window.close();">Cancel</BUTTON></DIV>
+
+</BODY>
+</HTML>

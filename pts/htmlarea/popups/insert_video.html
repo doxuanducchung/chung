@@ -1,0 +1,77 @@
+<html STYLE="width: 430px; height: 170px; ">
+<head><title>Insert Flash Video</title><head>
+<style>
+  html, body, button, div, input, select, td, fieldset { font-family: MS Shell Dlg; font-size: 8pt; };
+</style>
+<script>
+
+// if we pass the "window" object as a argument and then set opener to
+// equal that we can refer to dialogWindows and popupWindows the same way
+opener = window.dialogArguments;
+
+var _editor_url = opener._editor_url;
+var objname     = location.search.substring(1,location.search.length);
+var config      = opener.document.all[objname].config;
+var editor_obj  = opener.document.all["_" +objname+  "_editor"];
+var editdoc     = editor_obj.contentWindow.document;
+
+function _CloseOnEsc() {
+  if (event.keyCode == 27) { window.close(); return; }
+}
+
+window.onerror = HandleError
+
+function HandleError(message, url, line) {
+  var str = "An error has occurred in this dialog." + "\n\n"
+  + "Error: " + line + "\n" + message;
+  alert(str);
+//  window.close();
+  return true;
+}
+
+function Init() {
+  document.body.onkeypress = _CloseOnEsc;
+  video.value = video.value || "http://";
+  video.focus();
+  image.value = image.value || "http://";
+  image.focus();
+}
+
+function btnOKClick() {
+  var curRange = editdoc.selection.createRange();
+
+  // error checking
+  if (!video.value || video.value == "http://") { 
+    alert("Flash Video URL must be specified.");
+    video.focus();
+    return;
+  }
+
+  // delete selected content (if applicable)
+  if (editdoc.selection.type == "Control" || curRange.htmlText) {
+     if (!confirm("Overwrite selected content?")) { return; }
+     curRange.execCommand('Delete');
+     curRange = editdoc.selection.createRange();
+  }
+
+  // create Flash Video
+  var videoin = '<div align="center"><font color="blue" size="2"><a href="http://www.macromedia.com/go/getflashplayer">C&#224;i &#273;&#7863;t Flash Player</a> n&#7871;u b&#7841;n kh&#244;ng xem &#273;&#432;&#7907;c.</font><br>'
+	    + '<embed type="application/x-shockwave-flash" src="/demo/images/flvplayer.swf" allowfullscreen="true" flashvars="file=' +document.all.video.value+ '&image=' +document.all.image.value+ '" height="300" width="370"></embed></div>';
+
+  // insert flash video
+  opener.editor_insertHTML(objname, videoin);
+
+  // close popup window
+  window.close();
+}
+</SCRIPT>
+</HEAD>
+<BODY id=bdy onload="Init()" style="background: threedface; color: windowtext; margin: 10px; BORDER-STYLE: none" scroll=no>
+
+<DIV style="margin: 5px; width: 100%; " align="center">Flash Video URL: <INPUT name=video type=text style="width: 300px;height: 18px;" value="" onfocus="select()"></DIV>
+<DIV style="margin: 5px; width: 100%; " align="center">Image Preview : &nbsp;&nbsp;<INPUT name=image type=text style="width: 300px;height: 18px;" value="" onfocus="select()"></DIV>
+
+<DIV style="margin: 5px; width: 100%; float: center;" align="center"><BUTTON style="width: 80px;" type=submit onclick="btnOKClick()">OK</BUTTON><BUTTON style="width: 80px;" type=reset onClick="window.close();">Cancel</BUTTON></DIV>
+
+</BODY>
+</HTML>

@@ -1,0 +1,510 @@
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: 9pt tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; BACKGROUND: #33ccff; COLOR: #000000; PADDING-TOP: 0px; normL: #6CA200347202
+}
+A:link {
+	COLOR: #ff0066; TEXT-DECORATION: none
+}
+body_alink {
+	COLOR: #ff0066; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #0099cc; TEXT-DECORATION: none
+}
+body_avisited {
+	COLOR: #0099cc; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0066; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #ff0066; TEXT-DECORATION: none
+}
+body_ahover {
+	COLOR: #ff0066; TEXT-DECORATION: none
+}
+.page {
+	BACKGROUND: #ffffff; COLOR: #000000
+}
+TD {
+	FONT: 11px verdana, sans-serif, tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica
+}
+TH {
+	FONT: 11px verdana, sans-serif, tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica
+}
+P {
+	FONT: 11px verdana, sans-serif, tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica
+}
+LI {
+	FONT: 11px verdana, sans-serif, tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica
+}
+.tborder {
+	BORDER-BOTTOM: #83c809 1px solid; BORDER-LEFT: #83c809 1px solid; BACKGROUND: #f6f6f6; COLOR: #cccbcb; BORDER-TOP: #83c809 1px solid; BORDER-RIGHT: #83c809 1px solid
+}
+.tcat {
+	FONT: bold 9pt tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/menu_bg3.gif) #f7fcf2 repeat-x left top; COLOR: #ffffff
+}
+.tcat A:link {
+	COLOR: #ff0033; TEXT-DECORATION: none
+}
+.tcat_alink {
+	COLOR: #ff0033; TEXT-DECORATION: none
+}
+.tcat A:visited {
+	COLOR: #ff0033; TEXT-DECORATION: none
+}
+.tcat_avisited {
+	COLOR: #ff0033; TEXT-DECORATION: none
+}
+.tcat A:hover {
+	COLOR: #fdad00; TEXT-DECORATION: underline
+}
+.tcat A:active {
+	COLOR: #fdad00; TEXT-DECORATION: underline
+}
+.tcat_ahover {
+	COLOR: #fdad00; TEXT-DECORATION: underline
+}
+.thead {
+	FONT: bold 8pt tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; BACKGROUND: url(http://www.silveryhat.com/delynie/images/cellpic1.gif) #ffffff repeat-x left top; COLOR: #52931c
+}
+.thead A:link {
+	COLOR: #52931c
+}
+.thead_alink {
+	COLOR: #52931c
+}
+.thead A:visited {
+	COLOR: #52931c
+}
+.thead_avisited {
+	COLOR: #52931c
+}
+.thead A:hover {
+	COLOR: #000000
+}
+.thead A:active {
+	COLOR: #000000
+}
+.thead_ahover {
+	COLOR: #000000
+}
+.tfoot {
+	BACKGROUND: #e7fad5; COLOR: #52931c
+}
+.tfoot A:link {
+	COLOR: #52931c
+}
+.tfoot_alink {
+	COLOR: #52931c
+}
+.tfoot A:visited {
+	COLOR: #52931c
+}
+.tfoot_avisited {
+	COLOR: #52931c
+}
+.tfoot A:hover {
+	COLOR: #000000
+}
+.tfoot A:active {
+	COLOR: #000000
+}
+.tfoot_ahover {
+	COLOR: #000000
+}
+.alt1 {
+	BACKGROUND: #ffffff; COLOR: #333333
+}
+.alt1Active {
+	BACKGROUND: #ffffff; COLOR: #333333
+}
+.alt2 {
+	BACKGROUND: #ffffff; COLOR: #333333
+}
+.alt2Active {
+	BACKGROUND: #ffffff; COLOR: #333333
+}
+TD.inlinemod {
+	BACKGROUND: #ffffcc; COLOR: #000000
+}
+.wysiwyg {
+	FONT: 9pt tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; BACKGROUND: #fdfefb; COLOR: #000000
+}
+TEXTAREA {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BACKGROUND-COLOR: #e9e9e9; FONT: 12px verdana; COLOR: #666666; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.bginput {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BACKGROUND-COLOR: #e9e9e9; FONT: 12px verdana; COLOR: #666666; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.button {
+	BORDER-BOTTOM: #ee9305 1px solid; BORDER-LEFT: #fdca5d 1px solid; FONT: bold 11px tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; BACKGROUND: #fdad00; COLOR: #ffffff; BORDER-TOP: #fdca5d 1px solid; BORDER-RIGHT: #ee9305 1px solid
+}
+SELECT {
+	FONT: 11px tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif
+}
+OPTION {
+	FONT-FAMILY: tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; FONT-SIZE: 11px
+}
+OPTGROUP {
+	FONT-FAMILY: tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; FONT-SIZE: 11px
+}
+.smallfont {
+	FONT: 8pt tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif
+}
+.time {
+	COLOR: darkgreen
+}
+.navbar {
+	FONT: 11px tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif
+}
+.highlight {
+	COLOR: #ff0000; FONT-WEIGHT: bold
+}
+.fjsel {
+	BACKGROUND: #ffffff; COLOR: #ff9900
+}
+.fjdpth0 {
+	BACKGROUND: #f7f7f7; COLOR: #000000
+}
+.fjdpth1 {
+	BACKGROUND: #ffffff; COLOR: #cc3300
+}
+.fjdpth2 {
+	COLOR: #0099ff
+}
+.panel {
+	BORDER-BOTTOM: 1px outset; BORDER-LEFT: 1px outset; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #ffffff; COLOR: #000000; BORDER-TOP: 1px outset; BORDER-RIGHT: 1px outset; PADDING-TOP: 10px
+}
+.panelsurround {
+	BACKGROUND: #f7fcf2; COLOR: #000000
+}
+LEGEND {
+	FONT: 12px tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; COLOR: #ff9900
+}
+.vbmenu_control {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; FONT: bold 8pt tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/menu_bg1.gif) #f7fcf2 repeat-x left top; COLOR: #ffff66; PADDING-TOP: 3px
+}
+.vbmenu_control A:link {
+	COLOR: #ffff66; TEXT-DECORATION: none
+}
+.vbmenu_control_alink {
+	COLOR: #ffff66; TEXT-DECORATION: none
+}
+.vbmenu_control A:visited {
+	COLOR: #ffff66; TEXT-DECORATION: none
+}
+.vbmenu_control_avisited {
+	COLOR: #ffff66; TEXT-DECORATION: none
+}
+.vbmenu_control A:hover {
+	COLOR: #fdad00; TEXT-DECORATION: underline
+}
+.vbmenu_control A:active {
+	COLOR: #fdad00; TEXT-DECORATION: underline
+}
+.vbmenu_control_ahover {
+	COLOR: #fdad00; TEXT-DECORATION: underline
+}
+.vbmenu_popup {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BACKGROUND: #ffffff; COLOR: #000000; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+.vbmenu_option {
+	FONT: 8pt tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: #e4f3d2; COLOR: #000000; CURSOR: pointer
+}
+.vbmenu_option A:link {
+	COLOR: darkgreen; TEXT-DECORATION: none
+}
+.vbmenu_option_alink {
+	COLOR: darkgreen; TEXT-DECORATION: none
+}
+.vbmenu_option A:visited {
+	COLOR: darkgreen; TEXT-DECORATION: none
+}
+.vbmenu_option_avisited {
+	COLOR: darkgreen; TEXT-DECORATION: none
+}
+.vbmenu_option A:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.vbmenu_option A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.vbmenu_option_ahover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.vbmenu_hilite {
+	FONT: 8pt tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: #dff6bd; COLOR: #000000; CURSOR: pointer
+}
+.vbmenu_hilite A:link {
+	COLOR: darkgreen; TEXT-DECORATION: none
+}
+.vbmenu_hilite_alink {
+	COLOR: darkgreen; TEXT-DECORATION: none
+}
+.vbmenu_hilite A:visited {
+	COLOR: darkgreen; TEXT-DECORATION: none
+}
+.vbmenu_hilite_avisited {
+	COLOR: darkgreen; TEXT-DECORATION: none
+}
+.vbmenu_hilite A:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.vbmenu_hilite A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.vbmenu_hilite_ahover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.bigusername {
+	FONT-SIZE: 14pt
+}
+TD.thead {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 4px
+}
+DIV.thead {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 4px
+}
+.pagenav A {
+	TEXT-DECORATION: none
+}
+.pagenav TD {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 2px
+}
+.fieldset {
+	MARGIN-BOTTOM: 6px
+}
+.fieldset {
+	FONT-SIZE: 11px
+}
+.fieldset TD {
+	FONT-SIZE: 11px
+}
+.fieldset P {
+	FONT-SIZE: 11px
+}
+.fieldset LI {
+	FONT-SIZE: 11px
+}
+FORM {
+	DISPLAY: inline
+}
+LABEL {
+	CURSOR: default
+}
+FIELDSET {
+	BORDER-BOTTOM: #d0d0bf 1px solid; BORDER-LEFT: #d0d0bf 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: #d0d0bf 1px solid; BORDER-RIGHT: #d0d0bf 1px solid; PADDING-TOP: 8px; -moz-border-radius: 5px
+}
+.normal {
+	FONT-WEIGHT: normal
+}
+.inlineimg {
+	VERTICAL-ALIGN: middle
+}
+.imgpost {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BORDER-TOP: #cccccc 1px solid; CURSOR: pointer; BORDER-RIGHT: #cccccc 1px solid; PADDING-TOP: 4px
+}
+.avatar_forumdisplay {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; PADDING-TOP: 2px
+}
+HTML {
+	SCROLLBAR-ARROW-COLOR: #0080c0; SCROLLBAR-FACE-COLOR: white; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; SCROLLBAR-HIGHLIGHT-COLOR: #0080c0; SCROLLBAR-SHADOW-COLOR: #0080c0; SCROLLBAR-TRACK-COLOR: #ffffff; SCROLLBAR-3DLIGHT-COLOR: #ffffff
+}
+BODY {
+	SCROLLBAR-ARROW-COLOR: #0080c0; SCROLLBAR-FACE-COLOR: white; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; SCROLLBAR-HIGHLIGHT-COLOR: #0080c0; SCROLLBAR-SHADOW-COLOR: #0080c0; SCROLLBAR-TRACK-COLOR: #ffffff; SCROLLBAR-3DLIGHT-COLOR: #ffffff
+}
+.inputgood {
+	BORDER-BOTTOM: green 1px solid; BORDER-LEFT: green 1px solid; WIDTH: 211px; BORDER-TOP: green 1px solid; BORDER-RIGHT: green 1px solid
+}
+.inputbad {
+	BORDER-BOTTOM: red 1px solid; BORDER-LEFT: red 1px solid; WIDTH: 211px; BORDER-TOP: red 1px solid; BORDER-RIGHT: red 1px solid
+}
+.main {
+	WIDTH: 100%; FONT: 8pt tahoma, verdana, arial; BACKGROUND: #ffffff; COLOR: #000000
+}
+.border_left {
+	PADDING-LEFT: 14px; BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/bg_left.gif) repeat-y left top
+}
+.border_right {
+	PADDING-RIGHT: 14px; BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/bg_right.gif) repeat-y right top
+}
+.menu_bg {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/menu_bg.gif) repeat-x 50% top; HEIGHT: 40px
+}
+.menu_left {
+	PADDING-LEFT: 10px; BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/menu_left.gif) no-repeat left 50%; HEIGHT: 40px
+}
+.menu_right {
+	PADDING-RIGHT: 20px; BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/menu_right.gif) no-repeat right 50%; HEIGHT: 40px
+}
+.vbmenu_control2 {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT: bold 11px tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/menu_bg1.gif); COLOR: #ffffff; PADDING-TOP: 10px
+}
+.vbmenu_control2 A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_control2 A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_control2 A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.vbmenu_control A:active {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.bottom_line {
+	WIDTH: 100%; BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/bom_line.gif) no-repeat center 50%; HEIGHT: 32px
+}
+.avt {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/photo_table_01.gif); HEIGHT: 16px
+}
+.avl {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/photo_table_04.gif) repeat-y left top
+}
+.avr {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/photo_table_02.gif) repeat-y right top
+}
+.avbt {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/photo_table_03.gif); HEIGHT: 23px
+}
+.pt {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p5bg.gif) repeat-x 50% bottom; HEIGHT: 8px
+}
+.ptl {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p5a.gif) no-repeat left bottom; HEIGHT: 8px
+}
+.ptr {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p5.gif) no-repeat right bottom; HEIGHT: 8px
+}
+.pl {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p.gif) repeat-y left top
+}
+.pr {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p.gif) repeat-y right top
+}
+.pc {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p4bg.gif) repeat-x 50% top; HEIGHT: 17px
+}
+.pcl {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p1.gif) no-repeat left top; HEIGHT: 17px
+}
+.pcr {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p2.gif) no-repeat right top; HEIGHT: 17px
+}
+.pc_bg {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p3.gif) no-repeat center top; HEIGHT: 17px
+}
+.pca {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p1abg.gif) repeat-x 50% top; HEIGHT: 19px
+}
+.pcal {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p1a.gif) no-repeat left top; HEIGHT: 19px
+}
+.pcar {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p2a.gif) no-repeat right top; HEIGHT: 19px
+}
+.pca_bg {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p3a.gif) no-repeat center top; HEIGHT: 19px
+}
+.pb {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p4bg.gif) repeat-x 50% bottom; HEIGHT: 17px
+}
+.pbl {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p4a.gif) no-repeat left bottom; HEIGHT: 17px
+}
+.pbr {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/p4.gif) no-repeat right bottom; HEIGHT: 17px
+}
+.sigt {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/sigt.gif) repeat-x 50% bottom; HEIGHT: 9px; MARGIN-LEFT: 3px; MARGIN-RIGHT: 3px
+}
+.sigbt {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/sigbt.gif) repeat-x 50% top; HEIGHT: 9px; MARGIN-LEFT: 3px; MARGIN-RIGHT: 3px
+}
+.sigl {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/sigl.gif) repeat-y left top
+}
+.sigr {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/sigr.gif) repeat-y right top
+}
+.subforum {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.subforum LI {
+	PADDING-LEFT: 0.5em; WIDTH: 135px; PADDING-RIGHT: 0.5em; DISPLAY: inline; FLOAT: left
+}
+.clear {
+	CLEAR: both
+}
+.gdvbg {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/gdv_bg.gif) repeat-x 50% bottom; HEIGHT: 55px
+}
+.gdv1 {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/gdv1.gif) no-repeat left bottom; HEIGHT: 55px
+}
+.gdv2 {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/gdv2.gif) no-repeat left bottom; HEIGHT: 55px
+}
+.gdv3 {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/gdv3.gif) no-repeat left bottom; HEIGHT: 55px
+}
+.gdv_r {
+	BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/gdv_l.gif) no-repeat right bottom; HEIGHT: 55px
+}
+.buttonimg {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; CURSOR: hand; BORDER-RIGHT: 0px
+}
+.imglimit {
+	CURSOR: pointer
+}
+.statlink {
+	COLOR: #ff9933
+}
+.statlink:hover {
+	COLOR: #ff0066
+}
+.statlink:visited {
+	COLOR: #333333
+}
+.tcat_pink {
+	FONT: bold 9pt tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/gradient_tcat.gif) #f7fcf2 repeat-x left top; COLOR: #ffffff; VERTICAL-ALIGN: middle
+}
+.alt3 {
+	BACKGROUND: url(../.././Baby/misc/bg_vo.gif) #ffffff; COLOR: #333333
+}
+.tcat_blue {
+	FONT: bold 9pt tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/nav_bg.gif) #f7fcf2 repeat-x left top; COLOR: #ffffff; VERTICAL-ALIGN: middle
+}
+.tcat_orange {
+	FONT: bold 9pt tahoma, verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif; BACKGROUND: url(http://www.silveryhat.com/delynie/Baby/misc/orange_tcat.gif) #f7fcf2 repeat-x left top; COLOR: #ffffff; VERTICAL-ALIGN: middle
+}
+.tcat_pink A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tcat_pink_alink {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tcat_blue A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tcat_blue_alink {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tcat_orange A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tborder_gray {
+	BORDER-BOTTOM: rgb(208,208,191) 1px solid; BORDER-LEFT: rgb(208,208,191) 1px solid; BACKGROUND: #f6f6f6; COLOR: #cccbcb; BORDER-TOP: rgb(208,208,191) 1px solid; BORDER-RIGHT: rgb(208,208,191) 1px solid
+}
+.h1_welcome {
+	DISPLAY: inline; COLOR: brown; FONT-SIZE: 14px
+}
+INPUT.bginput:focus {
+	BORDER-BOTTOM-COLOR: #0066ff; BACKGROUND-COLOR: #ffffff; BORDER-TOP-COLOR: #0066ff; BORDER-RIGHT-COLOR: #0066ff; BORDER-LEFT-COLOR: #0066ff
+}
+INPUT.bginput:hover {
+	BORDER-BOTTOM-COLOR: #0066ff; BACKGROUND-COLOR: #ffffff; BORDER-TOP-COLOR: #0066ff; BORDER-RIGHT-COLOR: #0066ff; BORDER-LEFT-COLOR: #0066ff
+}
+TEXTAREA:focus {
+	BORDER-BOTTOM-COLOR: #0066ff; BACKGROUND-COLOR: #ffffff; BORDER-TOP-COLOR: #0066ff; BORDER-RIGHT-COLOR: #0066ff; BORDER-LEFT-COLOR: #0066ff
+}
